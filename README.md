@@ -1,8 +1,8 @@
-= wilson
+# wilson
 
 * http://rubyforge.org/projects/seattlerb
 
-== DESCRIPTION:
+## DESCRIPTION:
 
 Wilson is a pure ruby x86 assembler. No, really. Worst Idea Evar.
 
@@ -11,13 +11,13 @@ project with that name... So I'm naming it after Wilson Bilkovich, who
 is about as metal as you can get (and it is easier to spell than
 "bilkovich", even tho that sounds more metal).
 
-== FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS:
 
 * Generates x86 machine code directly. No dependencies. No system calls.
 * Registers ruby methods with #defasm, or run inline assembly with #asm.
 * Terrible, yet, awesome.
 
-== SYNOPSIS:
+## SYNOPSIS:
 
   class X
     defasm :superfast_meaning_of_life do
@@ -43,15 +43,15 @@ is about as metal as you can get (and it is easier to spell than
   p X.new.superfast_meaning_of_life # => 42
   p X.new.inline_asm_example        # => 1000
 
-== REQUIREMENTS:
+## REQUIREMENTS:
 
 * rubygems
 
-== INSTALL:
+## INSTALL:
 
 * sudo gem install wilson
 
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
